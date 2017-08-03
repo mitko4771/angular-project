@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+main {
+  background-image: url('../../assets/images/contactBgr.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+main #h1Section {
+  position: absolute;
+  top: 24%;
+  right: 16%;
+}
+main #h1Section h1 {
+  font-size: 4em;
+  font-family: 'Archivo Black', sans-serif;
+  color: #CC0026;
+}
+main #h1Section hr {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  color: #CC0026;
+  height: 4px;
+  background-color: #CC0026;
+  margin-top: 6%;
+}
+main #contactSection {
+  position: absolute;
+  top: 45%;
+  right: 1%;
+}
+main #contactSection p {
+  color: #CC0026;
+  font-size: 1.3em;
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 3%;
+  letter-spacing: 4px;
+  background-color: #000;
+  height: 24px;
+}
+main #contactSection p:nth-child(odd) {
+  margin-left: 10%;
+  width: 75%;
+}
+main #contactSection p:nth-child(1) {
+  width: 82%;
+}
+main #contactSection p:nth-child(3) {
+  width: 87%;
+}
+main #contactSection p span {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #5815a5;
+  cursor: pointer;
+}
+main #inputSection input {
+  border: 3px solid #CC0026;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #000;
+  font-size: 2em;
+  font-weight: bold;
+  box-shadow: 2px 3px 7px #000;
+}
+main #inputSection #numberInput {
+  display: none;
+  position: absolute;
+  top: 66%;
+  right: 16%;
+  text-align: center;
+}
+main #inputSection input[type=email] {
+  position: absolute;
+  top: 75%;
+  right: 16%;
+  text-align: center;
+}
+main #inputSection div {
+  border: 3px solid #CC0026;
+  border-radius: 2px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 85%;
+  right: 29%;
+  padding-left: 5px;
+}
+main #inputSection div span {
+  font-size: 50px;
+  color: #000;
+}

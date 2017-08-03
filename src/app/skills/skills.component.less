@@ -1,0 +1,278 @@
+@color-white: color('#fff');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+main {
+    color: @color-white;
+    height: 100%;
+    box-sizing: border-box;
+    #paralax {
+        height: 650px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Open Sans', sans-serif;
+        position: relative;
+        top: 0;
+        box-sizing: border-box;
+        h2 {
+            font-size: 1em;
+            letter-spacing: .2em;
+            text-transform: uppercase;
+            position: fixed;
+            top: 30%;
+            z-index: -10;
+        }
+        h1 {
+            font-size: 3em;
+            letter-spacing: .3em;
+            text-transform: uppercase;
+            position: fixed;
+            top: 35%;
+            z-index: -10;
+            span {
+                font-size: 1.2em;
+            }
+        }
+        .circle {
+            border-bottom: 1px solid @color-white;
+            position: fixed;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 110px;
+            font-size: 30px;
+            overflow: hidden;
+            .fa {
+                color: @color-white;
+                margin: 0;
+                padding: 0;
+                animation: animate 1.8s linear infinite;
+            }
+            @keyframes animate {
+                0% {
+                    transform: translateY(-100px);
+                    text-shadow: 0 50px 0 @color-white;
+                }
+                20% {
+                    transform: translateY(0px);
+                    text-shadow: 0 10px 0 @color-white;
+                }
+                40% {
+                    transform: translateY(0px);
+                    text-shadow: 0 -10px 0 @color-white;
+                }
+                60% {
+                    transform: translateY(0px);
+                    text-shadow: 0 0px 0 @color-white;
+                }
+                100% {
+                    transform: translateY(100px);
+                    text-shadow: 0 -50px 0 @color-white;
+                }
+            }
+        }
+        .circle:before {
+            content: 'SCROLL DOWN';
+            position: absolute;
+            color: @color-white;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 10px;
+            left: 12px;
+            top: -50px;
+        }
+    }
+    #content {
+        width: 100%;
+        height: 1680px;
+        background-color: @color-white;
+        z-index: 1;
+        color: #000;
+        box-sizing: border-box;
+        img {
+            width: 76%;
+            margin: 10% 12% 0 12%;
+        }
+        #first-holder {
+            width: 100%;
+            height: 600px;
+            box-sizing: border-box;
+            position: relative;
+            #line {
+                background-color: #000;
+                width: 1px;
+                height: 300px;
+                position: absolute;
+                left: 49.5%;
+                top: -12%;
+                z-index: 100;
+            }
+            #articleHolder {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 10%;
+                article {
+                    margin: 17% auto;
+                    font-size: 3.6em;
+                    font-family: 'Open Sans', sans-serif;
+                    letter-spacing: 4px;
+                    text-align: justify;
+                    width: 748px;
+                }
+            }
+        }
+    }
+    #second-paralax {
+        width: 100%;
+        height: 600px;
+        box-sizing: border-box;
+    }
+    .imageParalax {
+        background-image: url('../../assets/images/dice.jpg');
+        width: 100%;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+    #skills-content {
+        width: 100%;
+        height: 100%;
+        background-color: #FAF72C;
+        img {
+            width: 76%;
+            margin: 10% 12% 0 12%;
+        }
+        .skills {
+            width: 100%;
+            height: 100%;
+            padding: 5% 10%;
+            box-sizing: border-box;
+            .skillsHolder {
+                border-top: 1px solid #FAF72C;
+                width: 30%;
+                position: relative;
+                display: inline-block;
+                margin-right: 3%;
+                .imageHolder {
+                    background-color: #2E2E2E;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                    position: absolute;
+                    left: 35%;
+                    .fa-html5 {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 32%;
+                        left: 12%;
+                    }
+                    .fa-css3 {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 32%;
+                        left: 50%;
+                    }
+                    .fa-code {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 30%;
+                        left: 28%;
+                    }
+                    .fa-desktop {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 30%;
+                        left: 28%;
+                    }
+                    .fa-laptop {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 30%;
+                        left: 28%;
+                    }
+                    .fa-paint-brush {
+                        font-size: 40px;
+                        color: #DD2723;
+                        position: absolute;
+                        top: 30%;
+                        left: 28%;
+                    }
+                }
+                .textHolder {
+                    font-family: 'Open Sans', sans-serif;
+                    color: #000;
+                    margin-top: 50%;
+                    h3 {
+                        font-size: 3em;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                    p {
+                        margin-top: 5%;
+                        font-size: 24px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        #github-section {
+            width: 100%;
+            height: 150px;
+            background-color: #2E2E2E;
+            text-align: center;
+            margin-top: 10%;
+            padding: 8% 0;
+            #githubParagraph {
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.5em;
+                display: block;
+            }
+            a {
+                &:hover {
+                    cursor: pointer;
+                }
+                &:visited {
+                    color: #fff;
+                }
+                .fa-github {
+                    font-size: 60px;
+                    color: #fff;
+                    margin-top: 8%;
+                }
+            }
+        }
+        #thanks-image {
+            width: 100%;
+            height: 100%;
+            background-color: #FAF72C;
+            img {
+                width: 76%;
+                margin: 8% 12% 0 12%;
+            }
+        }
+    }
+}          

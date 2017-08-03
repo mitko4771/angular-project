@@ -1,0 +1,329 @@
+@color-black: #000;
+@color-white: #fff;
+@color-yellow: #F7F216;
+
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+
+main {
+    min-height: 100vh;
+    box-sizing: border-box;
+    header {
+        height: 100%;
+        margin-bottom: 10%;
+        #backHex {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            .position {
+                position: absolute;
+                z-index: -30;
+            }
+            .sizeOne {
+                width: 25px;
+                height: 25px;
+            }
+            .sizeTwo {
+                width: 15px;
+                height: 15px;
+            }
+            .one {
+                top: 17%;
+                left: 20%;
+            }
+            .two {
+                top: 27%;
+                left: 24%;
+            }
+            .tree {
+                top: 26%;
+                left: 30%;
+            }
+            .four {
+                top: 43%;
+                left: 30%;
+            }
+            .five {
+                top: 31%;
+                left: 47%;
+            }
+            .six {
+                top: 54%;
+                left: 56%;
+            }
+            .seven {
+                top: 55%;
+                left: 40%;
+            }
+            .eight {
+                top: 67%;
+                left: 48%;
+            }
+            .nine {
+                top: 42%;
+                left: 62%;
+            }
+            .ten {
+                top: 21%;
+                left: 60%;
+            }
+            .eleven {
+                top: 72%;
+                left: 39%;
+            }
+            .twelve {
+                top: 50%;
+                left: 69%;
+            }
+            .thirteen {
+                top: 44%;
+                left: 49%;
+            }
+            .fourteen {
+                top: 63%;
+                left: 67%;
+            }
+            .fifteen {
+                top: 81%;
+                left: 58%;
+            }
+            .sexteen {
+                top: 31%;
+                left: 74%;
+            }
+            .seventeen {
+                top: 74%;
+                left: 31%;
+            }
+            .eighteen {
+                top: 69%;
+                left: 85%;
+            }
+            .nineteen {
+                top: 40%;
+                left: 24%;
+            }
+            .twenty {
+                top: 82%;
+                left: 49%;
+            }
+            .twentyone {
+                top: 61%;
+                left: 29%;
+            }
+        }
+        #middleHex {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            .position {
+                position: absolute;
+                z-index: -20;
+            }
+            .sizeOne {
+                width: 45px;
+                height: 45px;
+                -webkit-filter: blur(3px);
+                filter: blur(3px);
+            }
+            .sizeTwo {
+                width: 50px;
+                height: 50px;
+                -webkit-filter: blur(2px);
+                filter: blur(2px);
+            }
+            .one {
+                top: 32%;
+                left: 16%;
+            }
+            .two {
+                top: 51%;
+                left: 22%;
+            }
+            .tree {
+                top: 22%;
+                left: 36%;
+            }
+            .four {
+                top: 37%;
+                left: 45%;
+            }
+            .five {
+                top: 19%;
+                left: 76%;
+            }
+            .six {
+                top: 6%;
+                left: 31%;
+            }
+            .seven {
+                top: 56%;
+                left: 20%;
+            }
+            .eight {
+                top: 43%;
+                left: 76%;
+            }
+        }
+        #frontHex {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+            .position {
+                position: absolute;
+                z-index: 10;
+            }
+            .sizeOne {
+                width: 110px;
+                height: 110px;
+                -webkit-filter: blur(5px);
+                filter: blur(5px);
+            }
+            .sizeTwo {
+                width: 100px;
+                height: 100px;
+                -webkit-filter: blur(4px);
+                filter: blur(4px);
+            }
+            .one {
+                top: 10%;
+                left: 11%;
+            }
+            .two {
+                top: 20%;
+                left: 50%;
+            }
+            .tree {
+                top: 71%;
+                left: 66%;
+                width: 150px;
+                height: 150px;
+            }
+            .four {
+                top: 30%;
+                left: 15%;
+            }
+        }
+        .hHolder {
+            font-family: 'Vidaloka', serif;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 15% 0;
+            position: relative;
+            z-index: 5;
+            h1 {
+                font-size: 5em;
+                background: -webkit-linear-gradient(@color-black, #353);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h3 {
+                font-size: 2em;
+                background: -webkit-linear-gradient(#353, @color-black);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            h4 {
+                color: #1F341F;
+                position: absolute;
+                bottom: 2%;
+                left: 40%;
+            }
+        } 
+    }
+    article {
+        width: 100%;
+        height: 600px;
+        box-sizing: border-box;
+        position: relative;
+        #imageSection {
+            img {
+                position: absolute;
+                bottom: 0;
+                left: 12%;
+                width: 350px;
+                height: 600px;
+                z-index: -10;
+                opacity: 0.4;
+            }
+        }
+        #aboutMeText {
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            #slides {
+                position: relative;
+                height: 100%;
+                padding: 0px;
+                margin: 0px;
+                list-style-type: none;
+                .slide {
+                    position: absolute;
+                    left: 0px;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    z-index: 199;
+                    -webkit-transition: opacity 1s;
+                    -moz-transition: opacity 1s;
+                    -o-transition: opacity 1s;
+                    transition: opacity 1s;
+                    p {
+                        height: 65%;
+                        width: 84%;
+                        padding: 31% 0 0 8%;
+                        font-size: 5em;
+                        font-family: 'Vidaloka', serif;
+                        background: -webkit-linear-gradient(@color-white, #ffa);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;
+                        display: none;
+                    }
+                }
+                .showing {
+                    opacity: 1;
+                    z-index: 200;
+                }
+            }
+            .control {
+                background-color: #635f5f;
+                opacity: 0.1;
+                border-radius: 4px;
+                width: 80px;
+                height: 80px;
+                border: none;
+                display: none;
+                span {
+                    font-size: 50px;
+                }
+            }
+            #previous {
+                position: absolute;
+                top: 40%;
+                z-index: 900;
+            }
+            #next {
+                position: absolute;
+                top: 40%;
+                right: 0;
+                z-index: 900;
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        height: 10px;
+        background-color: @color-yellow;
+        z-index: 100;
+        position: absolute;
+        bottom: 0;
+    }
+}

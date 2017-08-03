@@ -1,0 +1,28 @@
+<main> 
+    <header [@resizeSection]="state"> 
+        <section id="headerSection">
+            <div id="logo" [@showLogo]="show">
+                <a routerLink="home"><h1>m</h1></a>
+            </div>
+            <nav id="links" [@showLinks]="show">
+                <ul>
+                    <li><a routerLink="home" id="home">Home</a></li>
+                    <li><a routerLink="who-am-I">Who am I</a></li>
+                    <li><a routerLink="skills">Skills</a></li>
+                    <li><a routerLink="motivation-letter">Motivation letter</a></li>
+                    <li><a routerLink="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="imgSection" [@hideImg]="hide">
+            <img src="../assets/images/logoWhite.JPEG">
+        </section>
+        <section [@hideButton]="hide">
+            <button (click)="animate()">Enter</button>
+        </section>
+        <hr [@hideHr]="hide">
+    </header>
+    <article [@showArticle]="show">
+        <router-outlet id="router"></router-outlet>
+    </article>
+</main>

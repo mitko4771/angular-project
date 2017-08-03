@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+main {
+  color: #ffffff;
+  height: 100%;
+  box-sizing: border-box;
+}
+main #paralax {
+  height: 650px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: 0;
+  box-sizing: border-box;
+}
+main #paralax h2 {
+  font-size: 1em;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  position: fixed;
+  top: 30%;
+  z-index: -10;
+}
+main #paralax h1 {
+  font-size: 3em;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+  position: fixed;
+  top: 35%;
+  z-index: -10;
+}
+main #paralax h1 span {
+  font-size: 1.2em;
+}
+main #paralax .circle {
+  border-bottom: 1px solid #ffffff;
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 110px;
+  font-size: 30px;
+  overflow: hidden;
+}
+main #paralax .circle .fa {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  animation: animate 1.8s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(-100px);
+    text-shadow: 0 50px 0 #ffffff;
+  }
+  20% {
+    transform: translateY(0px);
+    text-shadow: 0 10px 0 #ffffff;
+  }
+  40% {
+    transform: translateY(0px);
+    text-shadow: 0 -10px 0 #ffffff;
+  }
+  60% {
+    transform: translateY(0px);
+    text-shadow: 0 0px 0 #ffffff;
+  }
+  100% {
+    transform: translateY(100px);
+    text-shadow: 0 -50px 0 #ffffff;
+  }
+}
+main #paralax .circle:before {
+  content: 'SCROLL DOWN';
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  left: 12px;
+  top: -50px;
+}
+main #content {
+  width: 100%;
+  height: 1680px;
+  background-color: #ffffff;
+  z-index: 1;
+  color: #000;
+  box-sizing: border-box;
+}
+main #content img {
+  width: 76%;
+  margin: 10% 12% 0 12%;
+}
+main #content #first-holder {
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  position: relative;
+}
+main #content #first-holder #line {
+  background-color: #000;
+  width: 1px;
+  height: 300px;
+  position: absolute;
+  left: 49.5%;
+  top: -12%;
+  z-index: 100;
+}
+main #content #first-holder #articleHolder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10%;
+}
+main #content #first-holder #articleHolder article {
+  margin: 17% auto;
+  font-size: 3.6em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 4px;
+  text-align: justify;
+  width: 748px;
+}
+main #second-paralax {
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+}
+main .imageParalax {
+  background-image: url('../../assets/images/dice.jpg');
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+main #skills-content {
+  width: 100%;
+  height: 100%;
+  background-color: #FAF72C;
+}
+main #skills-content img {
+  width: 76%;
+  margin: 10% 12% 0 12%;
+}
+main #skills-content .skills {
+  width: 100%;
+  height: 100%;
+  padding: 5% 10%;
+  box-sizing: border-box;
+}
+main #skills-content .skills .skillsHolder {
+  border-top: 1px solid #FAF72C;
+  width: 30%;
+  position: relative;
+  display: inline-block;
+  margin-right: 3%;
+}
+main #skills-content .skills .skillsHolder .imageHolder {
+  background-color: #2E2E2E;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-html5 {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 32%;
+  left: 12%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-css3 {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-code {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-desktop {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-laptop {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
+main #skills-content .skills .skillsHolder .imageHolder .fa-paint-brush {
+  font-size: 40px;
+  color: #DD2723;
+  position: absolute;
+  top: 30%;
+  left: 28%;
+}
+main #skills-content .skills .skillsHolder .textHolder {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  margin-top: 50%;
+}
+main #skills-content .skills .skillsHolder .textHolder h3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+main #skills-content .skills .skillsHolder .textHolder p {
+  margin-top: 5%;
+  font-size: 24px;
+  text-align: left;
+}
+main #skills-content #github-section {
+  width: 100%;
+  height: 150px;
+  background-color: #2E2E2E;
+  text-align: center;
+  margin-top: 10%;
+  padding: 8% 0;
+}
+main #skills-content #github-section #githubParagraph {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  display: block;
+}
+main #skills-content #github-section a:hover {
+  cursor: pointer;
+}
+main #skills-content #github-section a:visited {
+  color: #fff;
+}
+main #skills-content #github-section a .fa-github {
+  font-size: 60px;
+  color: #fff;
+  margin-top: 8%;
+}
+main #skills-content #thanks-image {
+  width: 100%;
+  height: 100%;
+  background-color: #FAF72C;
+}
+main #skills-content #thanks-image img {
+  width: 76%;
+  margin: 8% 12% 0 12%;
+}

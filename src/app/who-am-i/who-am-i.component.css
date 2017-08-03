@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+main {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+main header {
+  height: 100%;
+  margin-bottom: 10%;
+}
+main header #backHex {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+main header #backHex .position {
+  position: absolute;
+  z-index: -30;
+}
+main header #backHex .sizeOne {
+  width: 25px;
+  height: 25px;
+}
+main header #backHex .sizeTwo {
+  width: 15px;
+  height: 15px;
+}
+main header #backHex .one {
+  top: 17%;
+  left: 20%;
+}
+main header #backHex .two {
+  top: 27%;
+  left: 24%;
+}
+main header #backHex .tree {
+  top: 26%;
+  left: 30%;
+}
+main header #backHex .four {
+  top: 43%;
+  left: 30%;
+}
+main header #backHex .five {
+  top: 31%;
+  left: 47%;
+}
+main header #backHex .six {
+  top: 54%;
+  left: 56%;
+}
+main header #backHex .seven {
+  top: 55%;
+  left: 40%;
+}
+main header #backHex .eight {
+  top: 67%;
+  left: 48%;
+}
+main header #backHex .nine {
+  top: 42%;
+  left: 62%;
+}
+main header #backHex .ten {
+  top: 21%;
+  left: 60%;
+}
+main header #backHex .eleven {
+  top: 72%;
+  left: 39%;
+}
+main header #backHex .twelve {
+  top: 50%;
+  left: 69%;
+}
+main header #backHex .thirteen {
+  top: 44%;
+  left: 49%;
+}
+main header #backHex .fourteen {
+  top: 63%;
+  left: 67%;
+}
+main header #backHex .fifteen {
+  top: 81%;
+  left: 58%;
+}
+main header #backHex .sexteen {
+  top: 31%;
+  left: 74%;
+}
+main header #backHex .seventeen {
+  top: 74%;
+  left: 31%;
+}
+main header #backHex .eighteen {
+  top: 69%;
+  left: 85%;
+}
+main header #backHex .nineteen {
+  top: 40%;
+  left: 24%;
+}
+main header #backHex .twenty {
+  top: 82%;
+  left: 49%;
+}
+main header #backHex .twentyone {
+  top: 61%;
+  left: 29%;
+}
+main header #middleHex {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+main header #middleHex .position {
+  position: absolute;
+  z-index: -20;
+}
+main header #middleHex .sizeOne {
+  width: 45px;
+  height: 45px;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+main header #middleHex .sizeTwo {
+  width: 50px;
+  height: 50px;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
+main header #middleHex .one {
+  top: 32%;
+  left: 16%;
+}
+main header #middleHex .two {
+  top: 51%;
+  left: 22%;
+}
+main header #middleHex .tree {
+  top: 22%;
+  left: 36%;
+}
+main header #middleHex .four {
+  top: 37%;
+  left: 45%;
+}
+main header #middleHex .five {
+  top: 19%;
+  left: 76%;
+}
+main header #middleHex .six {
+  top: 6%;
+  left: 31%;
+}
+main header #middleHex .seven {
+  top: 56%;
+  left: 20%;
+}
+main header #middleHex .eight {
+  top: 43%;
+  left: 76%;
+}
+main header #frontHex {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+main header #frontHex .position {
+  position: absolute;
+  z-index: 10;
+}
+main header #frontHex .sizeOne {
+  width: 110px;
+  height: 110px;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+main header #frontHex .sizeTwo {
+  width: 100px;
+  height: 100px;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+main header #frontHex .one {
+  top: 10%;
+  left: 11%;
+}
+main header #frontHex .two {
+  top: 20%;
+  left: 50%;
+}
+main header #frontHex .tree {
+  top: 71%;
+  left: 66%;
+  width: 150px;
+  height: 150px;
+}
+main header #frontHex .four {
+  top: 30%;
+  left: 15%;
+}
+main header .hHolder {
+  font-family: 'Vidaloka', serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15% 0;
+  position: relative;
+  z-index: 5;
+}
+main header .hHolder h1 {
+  font-size: 5em;
+  background: -webkit-linear-gradient(#000, #353);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main header .hHolder h3 {
+  font-size: 2em;
+  background: -webkit-linear-gradient(#353, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main header .hHolder h4 {
+  color: #1F341F;
+  position: absolute;
+  bottom: 2%;
+  left: 40%;
+}
+main article {
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  position: relative;
+}
+main article #imageSection img {
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+  width: 350px;
+  height: 600px;
+  z-index: -10;
+  opacity: 0.4;
+}
+main article #aboutMeText {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+main article #aboutMeText #slides {
+  position: relative;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+main article #aboutMeText #slides .slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 199;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+main article #aboutMeText #slides .slide p {
+  height: 65%;
+  width: 84%;
+  padding: 31% 0 0 8%;
+  font-size: 5em;
+  font-family: 'Vidaloka', serif;
+  background: -webkit-linear-gradient(#fff, #ffa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  display: none;
+}
+main article #aboutMeText #slides .showing {
+  opacity: 1;
+  z-index: 200;
+}
+main article #aboutMeText .control {
+  background-color: #635f5f;
+  opacity: 0.1;
+  border-radius: 4px;
+  width: 80px;
+  height: 80px;
+  border: none;
+  display: none;
+}
+main article #aboutMeText .control span {
+  font-size: 50px;
+}
+main article #aboutMeText #previous {
+  position: absolute;
+  top: 40%;
+  z-index: 900;
+}
+main article #aboutMeText #next {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  z-index: 900;
+}
+main footer {
+  width: 100%;
+  height: 10px;
+  background-color: #F7F216;
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+}

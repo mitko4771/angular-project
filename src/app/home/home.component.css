@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+#mainHome {
+  background: url('../../assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#mainHome section {
+  font-family: 'Kaushan Script', cursive;
+}
+#mainHome section h1 {
+  position: absolute;
+  top: 33%;
+  left: 12%;
+  font-size: 5em;
+}
+#mainHome section h3 {
+  font-size: 2em;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+}
+#mainHome footer {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  -moz-box-shadow: 0 -1px 2px #fff;
+  -webkit-box-shadow: 0 -1px 2px #fff;
+  box-shadow: 0 -1px 2px #fff;
+}
+#mainHome footer #creator {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+}
+#mainHome footer #creator #spanDiv {
+  position: relative;
+  left: 48.7%;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  margin: 0.3% 0;
+}
+#mainHome footer #creator #spanDiv span:nth-child(2) {
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+#mainHome footer #creator p {
+  position: relative;
+  left: 45.3%;
+  text-transform: uppercase;
+  font-size: .8em;
+  font-family: 'Overpass', sans-serif;
+}
+#mainHome footer #creator hr {
+  width: 9.5%;
+}

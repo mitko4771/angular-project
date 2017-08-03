@@ -1,0 +1,64 @@
+<main>
+    <header>   
+        <section id="backHex">
+            <img src="../../assets/images/hex.png" [ngClass]="{'one': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'two': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'tree': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'four': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'five': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'six': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'seven': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'eight': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'nine': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'ten': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'eleven': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'twelve': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'thirteen': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'fourteen': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'fifteen': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'sexteen': true, 'backRotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'seventeen': true, 'backRotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'eighteen': true, 'rotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'nineteen': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'twenty': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'twentyone': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+        </section>
+        <section id="middleHex">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'one': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'two': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'tree': true, 'backRotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'four': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'five': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'six': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'seven': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'eight': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+        </section>
+        <section id="frontHex">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'one': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'two': true, 'backRotate': true, 'position': true, 'sizeTwo': true}">
+            <img src="../../assets/images/hexGreen.png" [ngClass]="{'tree': true, 'backRotate': true, 'position': true, 'sizeOne': true}">
+            <img src="../../assets/images/hex.png" [ngClass]="{'four': true, 'rotate': true, 'position': true, 'sizeTwo': true}">
+        </section>     
+        <section [class.hHolder]="holder">
+            <h1>mitko dimitrov</h1>
+            <h3>an ordinary person</h3>
+            <h4>scroll down to see my story</h4>
+        </section>
+    </header>
+    <article>
+        <section id="imageSection">
+            <img src="../../assets/images/me.png">
+        </section>
+        <section id="aboutMeText">
+            <ul id="slides">
+                <li class="slide showing"><p>This is me by the way</p></li>
+                <li class="slide"><p>Born before internet</p></li>
+                <li class="slide"><p>Future developer</p></li>
+                <li class="slide"><p>Basically this is it</p></li>
+            </ul>
+            <button [class.control]="controls" id="previous"><span class="fa fa-angle-left" aria-hidden="true"></span></button>
+            <button [class.control]="controls" id="next"><span class="fa fa-angle-right" aria-hidden="true"></span></button>
+        </section>
+    </article>
+    <footer></footer>
+</main>
